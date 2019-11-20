@@ -6,16 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
-
 steps:
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'filePath'
-    scriptPath: 'main.py'
-
-
 - task: CmdLine@2
   inputs:
     script: 'docker info'
