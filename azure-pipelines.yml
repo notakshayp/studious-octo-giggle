@@ -2,9 +2,6 @@ trigger:
 - jai
 
 steps:
-- task: CmdLine@2
-  inputs:
-    script: 'docker info'
 - task: PythonScript@0
   inputs:
     scriptSource: 'filePath'
