@@ -1,5 +1,5 @@
 trigger:
-- master
+- jai
 
 steps:
 - task: CmdLine@2
