@@ -1,8 +1,8 @@
 trigger:
-- jai
+- master
 
 steps:
 - task: PythonScript@0
   inputs:
     scriptSource: 'filePath'
-    scriptPath: 'jai.py'
+    scriptPath: 'akshyua.py'
